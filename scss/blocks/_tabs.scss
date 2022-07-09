@@ -1,0 +1,35 @@
+.tabs{
+    @extend %mixin-card;
+    padding: 0 40px;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.tabs-button{
+    height: 100%;
+    background: transparent;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1;
+    color: #808080;
+    text-align: center;
+    cursor: pointer;
+    padding: 0;
+
+    &:hover{
+        color: #1875F0;
+    }
+    
+    &+&{
+        margin-left: 50px;
+    }
+}
+
+.tabs-button--active{
+    color: #1875F0;
+    border-bottom: 2px solid #1875F0;
+}

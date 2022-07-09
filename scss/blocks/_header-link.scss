@@ -1,0 +1,35 @@
+.header-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #808080;
+
+    &:not(:last-child){
+        margin-right: 35px;
+    }
+
+    .icon-svg{
+        fill: #808080;
+    }
+
+    &:hover{
+        color: $blue;
+
+        .icon-svg{
+            fill: $blue;
+        }
+    }
+}
+
+.header-link-icon{
+    position: relative;
+    width: 21px;
+    height: 21px;
+    margin-right: 18px;
+}
+
+.header-link-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+}

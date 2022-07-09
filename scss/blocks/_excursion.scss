@@ -1,0 +1,777 @@
+.excursion-name{
+    @extend %mixin-card;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+    color: #808080;
+}
+
+.main-column-right{
+    .carousel-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 420px;
+        background-image: url("./../img/excursion/sightseeing/bridge.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 6px;
+        .slide2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/sightseeing/konservatoria.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/sightseeing/lipki.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide4{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/sightseeing/promenade.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide5{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/sightseeing/teatral.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide6{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/parks/gorod-park1.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide7{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/parks/gorod-park3.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide8{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/parks/parkpobedy1.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide9{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/parks/parkpobedy2.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide10{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/parks/parkpobedy3.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide11{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/museum/museum1.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide12{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/museum/museum2.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide13{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/museum/museum3.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide14{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/museum/museum4.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide15{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/theater/theater1.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide16{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/theater/theater2.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide17{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/theater/theater3.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide18{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/theater/theater4.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide19{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/razina/cliff-razina1.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide20{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/razina/cliff-razina2.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide21{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/razina/cliff-razina3.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide22{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/razina/cliff-razina4.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide23{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/blue-forehead/blue-forehead1.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide24{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/blue-forehead/blue-forehead2.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide25{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/blue-forehead/blue-forehead3.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide26{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/blue-forehead/blue-forehead4.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide27{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/hvalinsk/park1.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide28{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/hvalinsk/park2.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide29{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/hvalinsk/park3.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide30{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/hvalinsk/park4.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide31{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/engels/engels1.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide32{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/engels/engels2.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide33{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/engels/engels3.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide34{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/balakovo-ges/ges1.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide35{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/balakovo-ges/ges2.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide36{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/balakovo-ges/ges3.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide37{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/balakovo-irgiz/irgiz1.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide38{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/balakovo-irgiz/irgiz2.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide39{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/balakovo-irgiz/irgiz3.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide40{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/volsk/volsk1.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide41{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/volsk/volsk2.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide42{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/volsk/volsk3.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide43{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/volsk/volsk4.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide44{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/novoburassk/selo1.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide45{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/novoburassk/selo2.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide46{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/novoburassk/cave1.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide47{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/novoburassk/cave2.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide48{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/red-kut/tylpin1.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide49{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/red-kut/tylpin2.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+        .slide50{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 420px;
+            background-image: url("./../img/excursion/red-kut/tylpin3.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 6px;
+        }
+    }  
+}
+
+.main-column-right-info{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    color: #666666;
+}
+
+.info-description{
+    width: 480px;
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 15px;
+    p{
+        margin-bottom: 15px;
+        margin-top: 15px;
+        line-height: 1.35;
+    }
+}
+
+.info-description-title{
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-style: italic;
+    &:not(:first-child){
+        padding-top: 10px;
+    } 
+}
+
+.info-price{
+    width: 281px;
+    height: 165px;
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+    padding: 20px;
+    .card-rating{
+        padding: 10px 0;
+        margin: 0;
+        justify-content: left;
+    }
+}
+
+.info-price-button{
+    border-radius: 4px;
+    border: 2px solid #F5F5F5;
+    cursor: pointer;
+    transition: 0.2s color ease-in;
+    margin: 10px 0 0 0;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #666666;
+    &:hover{
+        color: $blue;
+    }
+}

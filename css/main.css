@@ -1,0 +1,2375 @@
+@charset "UTF-8";
+/* line 3, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/base/_base.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 7, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/base/_base.scss */
+body {
+  background-color: #fafafa;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 13, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/base/_base.scss */
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: inherit;
+  line-height: 1;
+}
+
+/* line 20, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/base/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 22, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/base/_base.scss */
+a:hover {
+  color: #1875F0;
+  text-decoration: none;
+}
+
+/* line 28, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/base/_base.scss */
+.container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 34, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/base/_base.scss */
+.hidden {
+  display: none;
+}
+
+/* line 39, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/base/_base.scss */
+.main-column-right .container {
+  max-width: 815px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 1, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/base/_mixins.scss */
+.navigation, .info-block, .tabs, .card, .excursion-name, .main-cotacts, .main-buy {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+/* line 1, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header.scss */
+.header {
+  background-color: white;
+  height: 180px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+
+/* line 8, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header.scss */
+.header__container {
+  max-width: 1100px;
+  height: 118px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 23px;
+  padding-right: 41px;
+  padding-top: 30px;
+  padding-bottom: 38px;
+}
+
+/* line 22, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header.scss */
+.header__logo {
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 1.76px;
+  color: #4D4D4D;
+}
+
+/* line 32, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header.scss */
+.header__search {
+  display: flex;
+  width: 468px;
+  height: 50px;
+  border-radius: 4px;
+  border: 2px solid #F5F5F5;
+}
+
+/* line 40, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header.scss */
+.header__search-input-wrapper {
+  width: 230px;
+  display: flex;
+  align-items: center;
+  border-right: 2px solid #F5F5F5;
+}
+
+/* line 47, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header.scss */
+.header__search-input {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 46px;
+  width: 100%;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  color: #535353;
+}
+
+/* line 59, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header.scss */
+.header__search-input::placeholder {
+  color: #B3B3B3;
+}
+
+/* line 64, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header.scss */
+.header__search-dropdown {
+  border-right: 2px solid #F5F5F5;
+  width: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 72, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header.scss */
+.header__search-button-wrapper {
+  flex-grow: 1;
+}
+
+/* line 76, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header.scss */
+.header__search-button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* line 87, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header.scss */
+.header__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 92, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header.scss */
+.header_nav {
+  border-top: 2px solid #F5F5F5;
+}
+
+/* line 1, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-select.scss */
+.header-select {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* line 11, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-select.scss */
+.header-select-title {
+  position: relative;
+  width: 83px;
+  font-weight: 900;
+  font-size: 10px;
+  line-height: 1;
+  letter-spacing: 1.25px;
+  color: #B3B3B3;
+  text-transform: uppercase;
+}
+
+/* line 21, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-select.scss */
+.header-select-title::after {
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  display: block;
+  width: 10px;
+  height: 7px;
+  background-image: url("./../img/icons/dropdown-icon.svg");
+}
+
+/* line 34, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-select.scss */
+.header-select-dropdown {
+  position: absolute;
+  top: 100%;
+  left: -2px;
+  right: -2px;
+  border: 2px solid #F5F5F5;
+  border-radius: 0 0 4px 4px;
+  background-color: white;
+}
+
+/* line 44, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-select.scss */
+.header-select-dropdown-item {
+  height: 40px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1;
+  color: #808080;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #F5F5F5;
+}
+
+/* line 55, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-select.scss */
+.header-select-dropdown-item:last-child {
+  border-bottom: none;
+}
+
+/* line 58, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-select.scss */
+.header-select-dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+/* line 65, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-select.scss */
+.header-select.header-select-nav {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+/* line 68, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-select.scss */
+.header-select.header-select-nav .header-select-title {
+  width: auto;
+  font-size: 14px;
+  text-transform: none;
+  font-weight: 500;
+  line-height: 1;
+  color: #B3B3B3;
+  padding-right: 20px;
+}
+
+/* line 1, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-link.scss */
+.header-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #808080;
+}
+
+/* line 7, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-link.scss */
+.header-link:not(:last-child) {
+  margin-right: 35px;
+}
+
+/* line 11, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-link.scss */
+.header-link .icon-svg {
+  fill: #808080;
+}
+
+/* line 15, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-link.scss */
+.header-link:hover {
+  color: #1875F0;
+}
+
+/* line 18, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-link.scss */
+.header-link:hover .icon-svg {
+  fill: #1875F0;
+}
+
+/* line 25, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-link.scss */
+.header-link-icon {
+  position: relative;
+  width: 21px;
+  height: 21px;
+  margin-right: 18px;
+}
+
+/* line 32, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-link.scss */
+.header-link-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+}
+
+/* line 3, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-nav.scss */
+.header-nav {
+  border-left: 2px solid #f5f5f5;
+  border-right: 2px solid #f5f5f5;
+  display: flex;
+  width: 1100px;
+  margin: 0 auto;
+  height: 60px;
+}
+
+/* line 12, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-nav.scss */
+.header-nav-categories {
+  border-right: 2px solid #f5f5f5;
+  width: 200px;
+}
+
+/* line 17, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-nav.scss */
+.header-nav-deals {
+  border-right: 2px solid #f5f5f5;
+  padding-left: 38px;
+  padding-right: 38px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+/* line 26, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-nav.scss */
+.header-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  color: #808080;
+  text-decoration: none;
+}
+
+/* line 34, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-nav.scss */
+.header-nav-link:not(:last-child) {
+  margin-right: 35px;
+}
+
+/* line 39, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-nav.scss */
+.header-nav-select {
+  display: flex;
+}
+
+/* line 44, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-nav.scss */
+.header-nav-select-item:not(:last-child) {
+  border-right: 2px solid #f5f5f5;
+}
+
+/* line 1, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-mega-menu.scss */
+.header-mega-menu {
+  padding: 0 40px 0 50px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 100%;
+  color: #808080;
+}
+
+/* line 9, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-mega-menu.scss */
+.header-mega-menu:hover {
+  color: #1875F0;
+  text-decoration: none;
+}
+
+/* line 12, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-mega-menu.scss */
+.header-mega-menu:hover svg {
+  fill: #1875F0;
+}
+
+/* line 18, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-mega-menu.scss */
+.header-mega-menu-icon {
+  padding-right: 22px;
+}
+
+/* line 20, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-mega-menu.scss */
+.header-mega-menu-icon svg {
+  fill: gray;
+}
+
+/* line 25, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_header-mega-menu.scss */
+.header-mega-menu-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+}
+
+/* line 1, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_nav-dropdown.scss */
+.nav-dropdown {
+  position: relative;
+  width: 130px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+/* line 14, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_nav-dropdown.scss */
+.nav-dropdown__title {
+  position: relative;
+  width: auto;
+  font-size: 14px;
+  color: #b3b3b3;
+  font-weight: 500;
+  line-height: 1;
+  padding-right: 20px;
+}
+
+/* line 24, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_nav-dropdown.scss */
+.nav-dropdown__title-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  content: "";
+  display: block;
+  width: 8px;
+  height: 5px;
+  font-size: 0;
+}
+
+/* line 35, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_nav-dropdown.scss */
+.nav-dropdown__title-icon svg {
+  fill: #b3b3b3;
+}
+
+/* line 40, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_nav-dropdown.scss */
+.nav-dropdown__dropdown {
+  display: none;
+  position: absolute;
+  z-index: 9;
+  top: 100%;
+  left: -2px;
+  right: -2px;
+  border: 2px solid #f5f5f5;
+  border-radius: 0 0 4px 4px;
+  background-color: #fff;
+}
+
+/* line 53, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_nav-dropdown.scss */
+.nav-dropdown:hover .nav-dropdown__title {
+  color: #1875F0;
+}
+
+/* line 56, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_nav-dropdown.scss */
+.nav-dropdown:hover svg {
+  fill: #1875F0;
+}
+
+/* line 59, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_nav-dropdown.scss */
+.nav-dropdown:hover .nav-dropdown__dropdown {
+  display: block;
+}
+
+/* line 64, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_nav-dropdown.scss */
+a.nav-dropdown__dropdown-item {
+  height: 40px;
+  color: #808080;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+  padding-left: 28px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #f5f5f5;
+}
+
+/* line 74, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_nav-dropdown.scss */
+a.nav-dropdown__dropdown-item:last-child {
+  border-bottom: none;
+}
+
+/* line 77, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_nav-dropdown.scss */
+a.nav-dropdown__dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+/* line 1, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel.scss */
+.carousel-section {
+  padding-bottom: 30px;
+}
+
+/* line 9, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel.scss */
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 330px;
+  background-image: url("./../img/carousel/slide-01.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 23, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel.scss */
+.carousel-item .slide02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 330px;
+  background-image: url("./../img/carousel/slide-02.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 38, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel.scss */
+.carousel-item .slide03 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 330px;
+  background-image: url("./../img/carousel/slide-03.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 54, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel.scss */
+.carousel-item-title {
+  margin-bottom: 60px;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 1.25;
+  color: #FFFFFF;
+}
+
+/* line 63, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel.scss */
+.carousel-item-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+/* line 69, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel.scss */
+.carousel-item-text p {
+  margin-bottom: 15px;
+}
+
+/* line 1, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 5, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
+.owl-theme .owl-nav [class*='owl-'] {
+  color: #FFF;
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+  background: #D6D6D6;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* line 14, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
+.owl-theme .owl-nav [class*='owl-']:hover {
+  background: #869791;
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* line 18, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
+.owl-theme .owl-nav .disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* line 23, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
+.owl-carousel.owl-theme .owl-nav button.owl-prev,
+.owl-carousel.owl-theme .owl-nav button.owl-next {
+  display: block;
+  height: 60px;
+  width: 60px;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+}
+
+/* line 37, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
+.owl-carousel.owl-theme .owl-nav button.owl-prev {
+  left: 60px;
+  background-image: url("./../img/carousel-icons/arrow-left.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 21px 21px;
+}
+
+/* line 45, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
+.owl-carousel.owl-theme .owl-nav button.owl-next {
+  right: 60px;
+  background-image: url("./../img/carousel-icons/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 21px 21px;
+}
+
+/* line 55, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 10px;
+}
+
+/* line 58, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
+.owl-theme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 66, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
+.owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+/* line 70, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
+.owl-theme .owl-dots .owl-dot span {
+  margin: 10px 15px;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 200ms ease;
+  width: 25px;
+  height: 2px;
+  background-color: #FFFFFF;
+  opacity: 0.3;
+}
+
+/* line 80, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  opacity: 1;
+}
+
+/* line 86, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
+.main-column-right .owl-carousel.owl-theme .owl-nav button.owl-prev,
+.main-column-right .owl-carousel.owl-theme .owl-nav button.owl-next {
+  display: block;
+  height: 40px;
+  width: 40px;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+}
+
+/* line 100, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
+.main-column-right .owl-carousel.owl-theme .owl-nav button.owl-prev {
+  left: 10px;
+  background-image: url("./../img/carousel-icons/arrow-left.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15px 15px;
+}
+
+/* line 108, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
+.main-column-right .owl-carousel.owl-theme .owl-nav button.owl-next {
+  right: 10px;
+  background-image: url("./../img/carousel-icons/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15px 15px;
+}
+
+/* line 117, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_carousel-theme.scss */
+.main-column-right .owl-theme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 1, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_promo-section.scss */
+.promo-section {
+  margin-bottom: 30px;
+}
+
+/* line 5, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_promo-section.scss */
+.promo-section-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 10, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_promo-section.scss */
+.promo-section-col {
+  width: 350px;
+}
+
+/* line 1, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_promo-section-item.scss */
+.promo-section-item-link-wrapper {
+  display: block;
+}
+
+/* line 5, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_promo-section-item.scss */
+.promo-section-item {
+  max-width: 350px;
+  height: 330px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  transition: box-shadow 0.2s ease-in, transform 0.2s ease-in;
+  text-align: center;
+}
+
+/* line 19, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_promo-section-item.scss */
+.promo-section-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 3px 25px rgba(0, 0, 0, 0.315);
+}
+
+/* line 25, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_promo-section-item.scss */
+.promo-section-item-title {
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+/* line 34, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_promo-section-item.scss */
+.promo-section-item-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  color: #B3B3B3;
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
+
+/* line 47, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_promo-section-item.scss */
+.promo-section-item--background-image {
+  justify-content: flex-end;
+  background-color: #3b4b48;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 45px;
+}
+
+/* line 54, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_promo-section-item.scss */
+.promo-section-item--background-image .promo-section-item-title {
+  color: #ffffff;
+}
+
+/* line 58, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_promo-section-item.scss */
+.promo-section-item--background-image .promo-section-item-subtitle {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* line 64, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_promo-section-item.scss */
+.promo-section-item--background-image-watch {
+  background-color: #3b4b48;
+  background-image: url("./../img/promo/watch-bg.jpg");
+}
+
+/* line 70, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_promo-section-item.scss */
+.promo-section-item-link-wrapper--column:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+/* line 75, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_promo-section-item.scss */
+.promo-section-item--small {
+  flex-direction: row;
+  padding: 20px;
+  height: 150px;
+  text-align: left;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 83, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_promo-section-item.scss */
+.promo-section-item--small .promo-section-item-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.14;
+  color: #666666;
+  margin: 0;
+}
+
+/* line 92, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_promo-section-item.scss */
+.promo-section-item-img-cell {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 116px;
+  margin-right: 25px;
+}
+
+/* line 101, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_promo-section-item.scss */
+.promo-section-item-title-cell {
+  display: flex;
+  align-items: center;
+}
+
+/* line 6, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_navigation.scss */
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 12, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_navigation.scss */
+.navigation-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  border-bottom: 2px solid #f5f5f5;
+  color: #808080;
+}
+
+/* line 19, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_navigation.scss */
+.navigation-item svg {
+  fill: #ccc;
+  transition: 0.2s fill ease-in;
+}
+
+/* line 24, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_navigation.scss */
+.navigation-item:hover {
+  color: #1875F0;
+  cursor: pointer;
+}
+
+/* line 27, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_navigation.scss */
+.navigation-item:hover svg {
+  fill: #1875F0;
+}
+
+/* line 33, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_navigation.scss */
+.navigation-item1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  border-bottom: 2px solid #f5f5f5;
+  color: #808080;
+}
+
+/* line 42, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_navigation.scss */
+.navigation-item-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 49, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_navigation.scss */
+.navigation-item-title {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+/* line 55, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_navigation.scss */
+.navigation-item-arrow {
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+/* line 1, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_main.scss */
+.main-content {
+  margin-bottom: 30px;
+}
+
+/* line 5, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_main.scss */
+.main-row {
+  display: flex;
+}
+
+/* line 9, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_main.scss */
+.main-column-left {
+  width: 255px;
+  margin-right: 30px;
+  flex-shrink: 0;
+}
+
+/* line 14, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_main.scss */
+.main-column-left > * + * {
+  margin-top: 30px;
+}
+
+/* line 19, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_main.scss */
+.main-column-right {
+  flex-grow: 1;
+}
+
+/* line 1, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_info-block.scss */
+.info-block {
+  height: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* line 10, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_info-block.scss */
+.info-block-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  color: #666666;
+  padding-bottom: 30px;
+}
+
+/* line 18, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_info-block.scss */
+.info-block-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  color: #D1D1D1;
+}
+
+/* line 1, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_tabs.scss */
+.tabs {
+  padding: 0 40px;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* line 10, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_tabs.scss */
+.tabs-button {
+  height: 100%;
+  background: transparent;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1;
+  color: #808080;
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* line 23, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_tabs.scss */
+.tabs-button:hover {
+  color: #1875F0;
+}
+
+/* line 27, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_tabs.scss */
+.tabs-button + .tabs-button {
+  margin-left: 50px;
+}
+
+/* line 32, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_tabs.scss */
+.tabs-button--active {
+  color: #1875F0;
+  border-bottom: 2px solid #1875F0;
+}
+
+/* line 1, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 825px;
+}
+
+/* line 6, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.cards-wrapper > * {
+  margin-bottom: 30px;
+}
+
+/* line 10, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.cards-wrapper > *:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+/* line 15, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card {
+  padding: 20px;
+  width: 255px;
+}
+
+/* line 21, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+/* line 28, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-sale {
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  font-weight: 900;
+  font-size: 10px;
+  line-height: 1;
+  color: #B3B3B3;
+  padding: 6px 10px;
+  text-transform: uppercase;
+}
+
+/* line 39, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-icon-btns {
+  display: flex;
+  align-items: center;
+}
+
+/* line 44, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-icon-btn {
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* line 50, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-icon-btn svg {
+  fill: #d8d6d6;
+}
+
+/* line 54, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-icon-btn:hover svg {
+  display: block;
+}
+
+/* line 58, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-icon-btn + .card-icon-btn {
+  margin-left: 25px;
+}
+
+/* line 64, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-icon-btn2 {
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* line 70, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-icon-btn2 svg {
+  fill: red;
+}
+
+/* line 74, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-icon-btn2 + .card-icon-btn2 {
+  margin-left: 25px;
+}
+
+/* line 79, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-img {
+  height: 160px;
+  margin-bottom: 34px;
+  text-align: center;
+}
+
+/* line 85, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-title {
+  height: 40px;
+  text-decoration: none;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+  color: #666666;
+  transition: 0.2s color ease-in;
+}
+
+/* line 95, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-title:hover {
+  color: #1875F0;
+}
+
+/* line 100, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-rating {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 29px;
+}
+
+/* line 104, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-rating > * + * {
+  margin-left: 4px;
+}
+
+/* line 109, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-rating-number {
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 0.12px;
+  color: #B3B3B3;
+}
+
+/* line 118, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-rating-title {
+  display: flex;
+  align-items: center;
+}
+
+/* line 123, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-footer {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 128, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-price {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.16px;
+  color: #666666;
+}
+
+/* line 136, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-cart {
+  margin-left: 17px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* line 143, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-cart svg {
+  fill: #d8d6d6;
+}
+
+/* line 147, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_card.scss */
+.card-cart:hover svg {
+  fill: #1875F0;
+}
+
+/* line 1, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_footer.scss */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3.85px solid #F5F5F5;
+  margin-bottom: 43px;
+}
+
+/* line 9, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_footer.scss */
+.footer-title {
+  font-weight: 900;
+  font-size: 21.1818px;
+  line-height: 1;
+  color: #4D4D4D;
+  margin-left: 200px;
+}
+
+/* line 17, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_footer.scss */
+.footer-social {
+  margin-right: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: inherit;
+}
+
+/* line 24, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_footer.scss */
+.social-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+/* line 33, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_footer.scss */
+.social-list-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+/* line 38, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_footer.scss */
+.social-list-item-btn {
+  border: none;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  height: 45px;
+  color: #4D4D4D;
+}
+
+/* line 45, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_footer.scss */
+.social-list-item-btn svg {
+  fill: #4D4D4D;
+  transition: 0.2s fill ease-in;
+}
+
+/* line 50, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_footer.scss */
+.social-list-item-btn:hover {
+  color: #1875F0;
+  cursor: pointer;
+}
+
+/* line 53, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_footer.scss */
+.social-list-item-btn:hover svg {
+  fill: #1875F0;
+}
+
+/* line 59, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_footer.scss */
+.footer-bottom {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  color: #B8B8B8;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/* line 1, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.excursion-name {
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1;
+  color: #808080;
+}
+
+/* line 18, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/sightseeing/bridge.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 31, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/sightseeing/konservatoria.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 45, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/sightseeing/lipki.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 59, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/sightseeing/promenade.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 73, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/sightseeing/teatral.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 87, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/parks/gorod-park1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 101, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/parks/gorod-park3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 115, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/parks/parkpobedy1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 129, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide9 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/parks/parkpobedy2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 143, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/parks/parkpobedy3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 157, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/museum/museum1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 171, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/museum/museum2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 185, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide13 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/museum/museum3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 199, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide14 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/museum/museum4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 213, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide15 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/theater/theater1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 227, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide16 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/theater/theater2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 241, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide17 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/theater/theater3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 255, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide18 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/theater/theater4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 269, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide19 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/razina/cliff-razina1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 283, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide20 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/razina/cliff-razina2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 297, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide21 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/razina/cliff-razina3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 311, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide22 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/razina/cliff-razina4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 325, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide23 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/blue-forehead/blue-forehead1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 339, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide24 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/blue-forehead/blue-forehead2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 353, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide25 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/blue-forehead/blue-forehead3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 367, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide26 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/blue-forehead/blue-forehead4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 381, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide27 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/hvalinsk/park1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 395, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide28 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/hvalinsk/park2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 409, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide29 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/hvalinsk/park3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 423, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide30 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/hvalinsk/park4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 437, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide31 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/engels/engels1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 451, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide32 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/engels/engels2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 465, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide33 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/engels/engels3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 479, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide34 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/balakovo-ges/ges1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 493, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide35 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/balakovo-ges/ges2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 507, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide36 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/balakovo-ges/ges3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 521, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide37 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/balakovo-irgiz/irgiz1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 535, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide38 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/balakovo-irgiz/irgiz2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 549, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide39 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/balakovo-irgiz/irgiz3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 563, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide40 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/volsk/volsk1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 577, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide41 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/volsk/volsk2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 591, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide42 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/volsk/volsk3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 605, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide43 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/volsk/volsk4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 619, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide44 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/novoburassk/selo1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 633, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide45 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/novoburassk/selo2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 647, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide46 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/novoburassk/cave1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 661, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide47 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/novoburassk/cave2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 675, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide48 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/red-kut/tylpin1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 689, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide49 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/red-kut/tylpin2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 703, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right .carousel-item .slide50 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 420px;
+  background-image: url("./../img/excursion/red-kut/tylpin3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+}
+
+/* line 720, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.main-column-right-info {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  color: #666666;
+}
+
+/* line 729, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.info-description {
+  width: 480px;
+  border: 2px solid #F5F5F5;
+  border-radius: 5px;
+  padding: 20px;
+  margin-right: 15px;
+}
+
+/* line 735, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.info-description p {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  line-height: 1.35;
+}
+
+/* line 742, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.info-description-title {
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* line 746, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.info-description-title:not(:first-child) {
+  padding-top: 10px;
+}
+
+/* line 751, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.info-price {
+  width: 281px;
+  height: 165px;
+  border: 2px solid #F5F5F5;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* line 757, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.info-price .card-rating {
+  padding: 10px 0;
+  margin: 0;
+  justify-content: left;
+}
+
+/* line 764, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.info-price-button {
+  border-radius: 4px;
+  border: 2px solid #F5F5F5;
+  cursor: pointer;
+  transition: 0.2s color ease-in;
+  margin: 10px 0 0 0;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #666666;
+}
+
+/* line 774, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_excursion.scss */
+.info-price-button:hover {
+  color: #1875F0;
+}
+
+/* line 1, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_main-dropdown.scss */
+.main-dropdown {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+/* line 14, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_main-dropdown.scss */
+.main-dropdown__title {
+  position: relative;
+  width: auto;
+  font-size: 14px;
+  color: #b3b3b3;
+  font-weight: 500;
+  line-height: 1;
+  padding-right: 20px;
+}
+
+/* line 25, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_main-dropdown.scss */
+.main-dropdown__title-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  content: "";
+  display: block;
+  width: 8px;
+  height: 5px;
+  font-size: 0;
+}
+
+/* line 35, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_main-dropdown.scss */
+.main-dropdown__title-icon svg {
+  fill: #b3b3b3;
+}
+
+/* line 40, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_main-dropdown.scss */
+.main-dropdown__dropdown {
+  display: none;
+  position: absolute;
+  z-index: 9;
+  left: 255px;
+  top: -2px;
+  border: 2px solid #f5f5f5;
+  border-radius: 0 0 4px 4px;
+  background-color: #fff;
+}
+
+/* line 54, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_main-dropdown.scss */
+.main-dropdown:hover .main-dropdown__title {
+  color: #1875F0;
+}
+
+/* line 57, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_main-dropdown.scss */
+.main-dropdown:hover svg {
+  fill: #1875F0;
+}
+
+/* line 60, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_main-dropdown.scss */
+.main-dropdown:hover .main-dropdown__dropdown {
+  display: block;
+}
+
+/* line 65, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_main-dropdown.scss */
+a.main-dropdown__dropdown-item {
+  width: 200px;
+  height: 50px;
+  color: #808080;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+  padding-left: 28px;
+  padding-right: 28px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #f5f5f5;
+}
+
+/* line 77, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_main-dropdown.scss */
+a.main-dropdown__dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+/* line 5, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_contacts.scss */
+.main-cotacts-title {
+  display: block;
+  padding: 25px;
+  padding-top: 40px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 1.76px;
+  color: #4D4D4D;
+}
+
+/* line 18, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_contacts.scss */
+.main-cotacts-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 24, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_contacts.scss */
+.main-cotacts-item {
+  width: 250px;
+  padding: 40px 10px;
+  align-items: center;
+}
+
+/* line 28, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_contacts.scss */
+.main-cotacts-item svg {
+  margin: 0 65px;
+}
+
+/* line 32, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_contacts.scss */
+.main-cotacts-item:not(:first-child) {
+  margin-left: 20px;
+}
+
+/* line 37, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_contacts.scss */
+.main-cotacts-item-link {
+  transition: 0.2s fill ease-in;
+}
+
+/* line 40, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_contacts.scss */
+.main-cotacts-item-link:hover svg {
+  fill: #1875F0;
+}
+
+/* line 46, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_contacts.scss */
+.main-cotacts-item-title {
+  margin-top: 15px;
+  text-align: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.35;
+  color: #808080;
+}
+
+/* line 5, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_buy.scss */
+.main-buy-title {
+  display: block;
+  padding: 25px;
+  padding-top: 40px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 1.76px;
+  color: #4D4D4D;
+}
+
+/* line 19, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_buy.scss */
+.main-buy-menu-item .header-select {
+  position: relative;
+  width: 180px;
+  height: 40px;
+  border: 2px solid #F5F5F5;
+  margin: 7px;
+}
+
+/* line 28, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_buy.scss */
+.main-buy-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 34, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_buy.scss */
+.main-buy-menu-item {
+  width: 500px;
+  padding: 40px 10px;
+  align-items: center;
+}
+
+/* line 37, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_buy.scss */
+.main-buy-menu-item svg {
+  margin: 0 65px;
+}
+
+/* line 44, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_buy.scss */
+.main-buy-menu-item2 {
+  width: 250px;
+  padding: 40px 10px;
+  align-items: center;
+}
+
+/* line 47, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_buy.scss */
+.main-buy-menu-item2 svg {
+  margin: 0 65px;
+}
+
+/* line 53, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_buy.scss */
+.main-buy-item-title {
+  margin-top: 15px;
+  text-align: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.35;
+  color: #808080;
+}
+
+/* line 69, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_buy.scss */
+.form-item-title {
+  align-items: center;
+  padding: 15px;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.35;
+  color: #808080;
+}
+
+/* line 79, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_buy.scss */
+.form-item-inp {
+  width: 180px;
+  margin: 7px;
+  height: 40px;
+  align-items: center;
+  border: 2px solid #F5F5F5;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+}
+
+/* line 87, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_buy.scss */
+.form-item-inp:hover {
+  color: #1875F0;
+}
+
+/* line 92, ../../OneDrive/Desktop/Дистанционка/Практика/shop/scss/blocks/_buy.scss */
+.pay-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=main.css.map */

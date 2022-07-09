@@ -1,0 +1,55 @@
+.main-cotacts{
+    @extend %mixin-card;
+}
+
+.main-cotacts-title{
+    display: block;
+    padding: 25px;
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1.76px;
+    color: #4D4D4D;
+}
+
+.main-cotacts-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-cotacts-item{
+    width: 250px;
+    padding: 40px 10px;
+    
+    svg{
+        margin: 0 65px;
+    }
+    align-items: center;
+    &:not(:first-child){
+        margin-left: 20px;
+    }
+}
+
+.main-cotacts-item-link{
+    transition: 0.2s fill ease-in;
+    &:hover{
+        svg{
+            fill: $blue;
+        }
+    }
+}
+
+.main-cotacts-item-title{
+    margin-top: 15px;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.35;
+    color: #808080;
+
+}

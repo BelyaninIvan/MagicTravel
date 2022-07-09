@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "promo-section-item.css",
+	"sources": [
+		"../../scss/blocks/promo-section-item.scss"
+	],
+	"sourcesContent": [
+		".promo-section-item-link-wrapper{\r\n\r\n}\r\n\r\n.promo-section-item{\r\n\r\n}\r\n\r\n.promo-section-item-title{\r\n\r\n}\r\n\r\n.promo-section-item-subtitle{\r\n\r\n}"
+	],
+	"names": [],
+	"mappings": ""
+}

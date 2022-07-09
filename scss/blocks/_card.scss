@@ -1,0 +1,150 @@
+.cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 825px;
+
+    & > * {
+        margin-bottom: 30px;
+    }
+
+    & > *:not(:nth-child(3n)) {
+        margin-right: 30px;
+    }
+}
+
+.card{
+    @extend %mixin-card;
+    padding: 20px;
+    width: 255px;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.card-sale{
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 1;
+    color: #B3B3B3;
+    padding: 6px 10px;
+    text-transform: uppercase;
+}
+
+.card-icon-btns{
+    display: flex;
+    align-items: center;
+}
+
+.card-icon-btn{
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    svg{
+        fill: #d8d6d6;
+    }
+
+    &:hover svg{
+        display: block; 
+    }
+
+    &+&{
+        margin-left: 25px;
+    }
+    
+}
+
+.card-icon-btn2{
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    svg{
+        fill: red;
+    }
+
+    &+&{
+        margin-left: 25px;
+    }
+}
+
+.card-img{
+    height: 160px;
+    margin-bottom: 34px;
+    text-align: center;
+}
+
+.card-title{
+    height: 40px;
+    text-decoration: none;
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    text-align: center;
+    color: #666666;
+    transition: 0.2s color ease-in;
+    &:hover{
+        color: $blue;
+    }
+}
+
+.card-rating{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 29px;
+    &>*+*{
+        margin-left: 4px;
+    }
+}
+
+.card-rating-number{
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.67;
+    letter-spacing: 0.12px;
+    color: #B3B3B3;
+}
+
+.card-rating-title{
+    display: flex;
+    align-items: center;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.card-price{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.16px;
+    color: #666666;
+}
+
+.card-cart{
+    margin-left: 17px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    svg{
+        fill: #d8d6d6;
+    }
+
+    &:hover svg{
+        fill: $blue;
+    }
+}

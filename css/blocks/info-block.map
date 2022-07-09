@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "info-block.css",
+	"sources": [
+		"../../scss/blocks/info-block.scss"
+	],
+	"sourcesContent": [
+		".info-block{\r\n\r\n}\r\n\r\n.info-block-title{\r\n\r\n}\r\n\r\n.info-block-subtitle{\r\n    \r\n}"
+	],
+	"names": [],
+	"mappings": ""
+}
